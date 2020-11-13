@@ -1,0 +1,169 @@
+.bgImage {
+  background-image: url("./bg.jpg");
+  min-height: 490px;
+}
+.bgBlack {
+  background-color: #0c0c0c !important;
+}
+.textJustify {
+  text-align: justify !important;
+}
+.educationPhoto {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: cover;
+}
+.clear {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.bg {
+  background-color: #0f1f26 !important;
+  color: #e8e9eb;
+}
+.background {
+  background-color: #010e42 !important;
+}
+.textMenu {
+  color: #e8e9eb !important;
+  font-size: 27px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.textMenu:hover {
+  color: #3eacff !important;
+  font-size: 27px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.quote {
+  color: #e8e9eb !important;
+  font-size: 43px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.subQuote {
+  color: #e8e9eb !important;
+  font-size: 33px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.title {
+  color: #e8e9eb !important;
+  font-size: 43px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.mediumTitleW {
+  color: #e8e9eb !important;
+  font-size: 35px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.mediumTitle {
+  color: #3eacff !important;
+  font-size: 30px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.mediumSubTitle {
+  color: #e8e9eb !important;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+}
+.text {
+  color: #e8e9eb !important;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.titleBlue {
+  color: #3eacff !important;
+  font-size: 43px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.subTitle {
+  color: #e8e9eb !important;
+  font-size: 23px;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+}
+.profileImage {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(170, 170, 170);
+  object-fit: cover;
+  border: 3px solid #e8e9eb;
+}
+.myButton {
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+  color: #e8e9eb;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+  font-size: 1.7em;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 10px 2rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+.myButton::after {
+  color: #3eacff !important;
+  box-shadow: none;
+  background-color: #010e42;
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+.myButton:focus {
+  box-shadow: none !important;
+  color: #e8e9eb;
+}
+.myButton:hover::after {
+  transform: translate(0, 0);
+}
+.myButton:hover {
+  color: #3eacff !important;
+}
+
+myButton:hover {
+  border: 2px solid transparent;
+  color: indigo;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+@media only screen and (max-width: 600px) {
+  .quote {
+    font-size: 29px;
+  }
+  /* .hide {
+    display: none;
+  } */
+  .educationPhoto {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .textJustify {
+    text-align: center !important;
+  }
+
+  .mediumTitle {
+    font-size: 20px;
+    text-align: left !important;
+  }
+  .mediumSubTitle {
+    color: #e8e9eb !important;
+    font-size: 17px;
+  }
+  .text {
+    color: #e8e9eb !important;
+    font-size: 15px;
+  }
+}
