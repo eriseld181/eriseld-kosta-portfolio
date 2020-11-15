@@ -194,7 +194,7 @@ export default function Into() {
                   roundedCircle
                 />{" "}
               </Col>
-              <Col xs={9} md={10} className={` mt-2 mb-5 `}>
+              <Col xs={9} md={9} className={` mt-2 mb-5 `}>
                 <Card.Title
                   className={`  mb-2  text-left ${styles.mediumTitle} `}
                 >
@@ -207,8 +207,8 @@ export default function Into() {
                 </Card.Text>
 
                 <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
-                  Working as a digital marketer in freelance platforms, Main
-                  Projects: Wix website designer, WordPress web developers,
+                  Working as a digital marketer in freelance platforms. Main
+                  Projects: Wix website designer, WordPress web development,
                   social media manager and advertising.
                 </Card.Text>
               </Col>
@@ -224,7 +224,7 @@ export default function Into() {
                   roundedCircle
                 />{" "}
               </Col>
-              <Col xs={9} md={10} className={` mt-2 mb-5 `}>
+              <Col xs={9} md={9} className={` mt-2 mb-5 `}>
                 <Card.Title
                   className={`  mb-2  text-left ${styles.mediumTitle} `}
                 >
@@ -238,7 +238,8 @@ export default function Into() {
 
                 <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
                   Working as a frontend developer, creating mockups and websites
-                  mostly with Html, Css and WordPress.
+                  for company clients using mostly Html, Css, Javascript and
+                  WordPress.
                 </Card.Text>
               </Col>
             </Row>
@@ -253,7 +254,7 @@ export default function Into() {
                   roundedCircle
                 />{" "}
               </Col>
-              <Col xs={9} md={10} className={` mt-2 mb-5 `}>
+              <Col xs={9} md={9} className={` mt-2 mb-5 `}>
                 <Card.Title
                   className={`  mb-2  text-left ${styles.mediumTitle} `}
                 >
@@ -276,54 +277,90 @@ export default function Into() {
         </Col>
 
         <Row className={` mt-5  ${styles.clear} ${styles.bgBlack} `}>
-          <Col className={` mt-5  my-auto mx-auto `} sm={11}>
+          <Col className={` mt-5  my-auto mx-auto `} sm={12}>
             <Row
               className={` mt-5 mb-3 justify-content-center  ${styles.clear}  `}
             >
-              <Col sm={11}>
+              <Col sm={12}>
                 {" "}
-                <h3 className={` text-left ${styles.mediumTitleW}`}>
+                <h3 className={` text-center mb-4 ${styles.mediumTitleW}`}>
                   My Skills
                 </h3>
               </Col>
             </Row>
-            <Row className={` mb-5  ${styles.clear} ${styles.bgBlack}  `}>
+            <Row className={` mb-5  mb-5 ${styles.clear} ${styles.bgBlack}  `}>
               {" "}
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="React" description="hello" />
+                <Skills title="React" img="./react.png" description="hello" />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="Node.js" description="hello" />
+                <Skills
+                  title="Node.js"
+                  img="./nodejs.png"
+                  description="hello"
+                />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="MongoDB" description="hello" />
+                <Skills
+                  title="MongoDB"
+                  img="./mongodb.png"
+                  description="hello"
+                />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="Express.js" description="hello" />
+                <Skills
+                  title="Express.js"
+                  img="./express.png"
+                  description="hello"
+                />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="Bootstrap" description="hello" />
+                <Skills
+                  title="Bootstrap"
+                  img="./bootstrap.png"
+                  description="hello"
+                />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="Html" description="hello" />
+                <Skills title="Html" img="./html.png" description="hello" />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="CSS" description="hello" />
+                <Skills title="CSS" img="./css.png" description="hello" />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="Typescript" description="hello" />
+                <Skills title="Typescript" img="./ts.png" description="hello" />
               </Col>
-              <Col md={12} lg={4}>
+              <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="Javascript" description="hello" />
+                <Skills title="Javascript" img="./js.jpg" description="hello" />
+              </Col>
+              <Col xs={6} sm={6} md={6} lg={3}>
+                {" "}
+                <Skills
+                  title="PostgreSQL"
+                  img="./postgree.png"
+                  description="hello"
+                />
+              </Col>
+              <Col xs={6} sm={6} md={6} lg={3}>
+                {" "}
+                <Skills
+                  title="WordPress"
+                  img="./wordpress.png"
+                  description="hello"
+                />
+              </Col>
+              <Col xs={6} sm={6} md={6} lg={3}>
+                {" "}
+                <Skills title="Photoshop" img="./js.jpg" description="hello" />
               </Col>
             </Row>
           </Col>{" "}
