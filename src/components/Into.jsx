@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Button, Image, Container } from "react-bootstrap";
 import styles from "./Style.module.css";
+import { SiLinkedin } from "react-icons/si";
+import { FaGithubSquare } from "react-icons/fa";
 import Skills from "./Skills";
 export default function Into() {
   return (
@@ -34,6 +36,26 @@ export default function Into() {
               <Card.Title className={`${styles.subTitle}`}>
                 Full Stack Developer
               </Card.Title>
+              <Row className={` justify-content-around  ${styles.clear} `}>
+                <Col sm={12}>
+                  {" "}
+                  <a
+                    href="https://www.linkedin.com/in/eriseld181/"
+                    target="_blank"
+                  >
+                    <SiLinkedin
+                      style={{ fontSize: "30px" }}
+                      className={` ${styles.mediumSubTitle} `}
+                    />
+                  </a>{" "}
+                  <a href="https://github.com/eriseld181" target="_blank">
+                    <FaGithubSquare
+                      style={{ fontSize: "35px" }}
+                      className={` ${styles.mediumSubTitle} `}
+                    />
+                  </a>
+                </Col>
+              </Row>
             </Card.Body>
           </Col>
           <Col className={` my-auto `} sm={12} md={7}>
@@ -360,7 +382,7 @@ export default function Into() {
               </Col>
               <Col xs={6} sm={6} md={6} lg={3}>
                 {" "}
-                <Skills title="Photoshop" img="./js.jpg" description="hello" />
+                <Skills title="Photoshop" img="./ps.png" description="hello" />
               </Col>
             </Row>
           </Col>{" "}
@@ -375,104 +397,101 @@ export default function Into() {
           <Row className={`  mb-3 justify-content-center  ${styles.clear}  `}>
             <Col sm={11}>
               {" "}
-              <h3 className={` text-left ${styles.mediumTitleW}`}>
+              <h3 className={` text-center ${styles.mediumTitleW}`}>
                 My Projects
               </h3>
             </Col>
           </Row>
           <Col sm={12} md={12}>
-            <Row className={` ${styles.clear} `}>
+            <Row className={` mb-4 ${styles.clear} `}>
               {" "}
-              <Col xs={3} md={2}>
-                {" "}
-                <Image
-                  variant="top"
-                  className={`${styles.educationPhoto} `}
-                  src="./freelance.jpg"
-                  roundedCircle
-                />{" "}
-              </Col>
-              <Col xs={9} md={10} className={` mt-2 mb-5 `}>
-                <Card.Title
-                  className={`  mb-2  text-left ${styles.mediumTitle} `}
+              <Col xs={12} md={6}>
+                <Card
+                  style={{ border: "none" }}
+                  className={` mb-4 ${styles.bg}`}
                 >
-                  Digital Marketer(Part Time)
-                </Card.Title>
-                <Card.Text
-                  className={`  mb-2 text-left ${styles.mediumSubTitle} `}
-                >
-                  Freelancer | Oct 2017 - present
-                </Card.Text>
+                  <Card.Img variant="top" src="etech2.png" />
 
-                <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
-                  Working as a digital marketer in freelance platforms, Main
-                  Projects: Wix website designer, WordPress web developers,
-                  social media manager and advertising.
-                </Card.Text>
-              </Col>
-            </Row>
-            <Row className={` ${styles.clear} `}>
-              {" "}
-              <Col xs={3} md={2}>
-                {" "}
-                <Image
-                  variant="top"
-                  className={`${styles.educationPhoto} `}
-                  src="./intech.png"
-                  roundedCircle
-                />{" "}
-              </Col>
-              <Col xs={9} md={10} className={` mt-2 mb-5 `}>
-                <Card.Title
-                  className={`  mb-2  text-left ${styles.mediumTitle} `}
+                  <Card.Title className={` mt-4  ${styles.mediumTitle}`}>
+                    E-Tech
+                  </Card.Title>
+                  <Card.Text className={`${styles.text} ${styles.textJ}`}>
+                    E-Tech was founded in August 15 2020. The company purpose is
+                    to provide high quality services for every IT course
+                    online.We want to help students and tutors to work together
+                    in one environment will all the necessary tools to make
+                    their process comfortable and effective...
+                  </Card.Text>
+                  <Row className="justify-content-around">
+                    <Button
+                      className={` ${styles.myButton1}`}
+                      href="https://e-tech-app.herokuapp.com/"
+                      target="_blank"
+                      variant="primary"
+                    >
+                      Live Demo
+                    </Button>
+                    <Button
+                      className={` ${styles.myButton1}`}
+                      href="https://github.com/eriseld181/soloCapstoneFrontend"
+                      target="_blank"
+                      variant="primary"
+                    >
+                      Github
+                    </Button>
+                  </Row>
+                </Card>
+              </Col>{" "}
+              <Col xs={12} md={6}>
+                <Card
+                  style={{ width: "100%", border: "none" }}
+                  className={`${styles.bg}`}
                 >
-                  Frontend developer
-                </Card.Title>
-                <Card.Text
-                  className={`  mb-2 text-left ${styles.mediumSubTitle} `}
-                >
-                  InTech | Jun 2019 - Oct 2019
-                </Card.Text>
+                  <Card.Img variant="top" src="theintimacyroom.png" />
 
-                <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
-                  Working as a frontend developer, creating mockups and websites
-                  mostly with Html, Css and WordPress.
-                </Card.Text>
-              </Col>
-            </Row>
-            <Row className={` ${styles.clear} `}>
-              {" "}
-              <Col xs={3} md={2}>
-                {" "}
-                <Image
-                  variant="top"
-                  className={`${styles.educationPhoto} `}
-                  src="./maccaferri.png"
-                  roundedCircle
-                />{" "}
-              </Col>
-              <Col xs={9} md={10} className={` mt-2 mb-5 `}>
-                <Card.Title
-                  className={`  mb-2  text-left ${styles.mediumTitle} `}
-                >
-                  Production Manager
-                </Card.Title>
-                <Card.Text
-                  className={`  mb-2 text-left ${styles.mediumSubTitle} `}
-                >
-                  Maccaferri Balkans | Sep 2017 - Jan 2019
-                </Card.Text>
-
-                <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
-                  Supervisor of a team of 5, creating and checking the quality
-                  of gabions and other top products of the company.
-                </Card.Text>
-              </Col>
+                  <Card.Title className={` mt-4 ${styles.mediumTitle}`}>
+                    The Intimacy Room
+                  </Card.Title>
+                  <Card.Text className={`${styles.text} ${styles.textJ}`}>
+                    Founder, Alyssa Grace, shares her passion for displaying
+                    thoughtfulness by creating unique lifetime experiences.
+                    After performing countless consultations about intimate
+                    décor for her peers, she decided to take her talent to the
+                    next level with The Intimacy Room...
+                  </Card.Text>
+                  <Row className={`justify-content-around ${styles.clear}`}>
+                    <Button
+                      className={` ${styles.myButton1}`}
+                      href="https://theintimacyroom.com/"
+                      target="_blank"
+                      variant="primary"
+                    >
+                      Live Demo
+                    </Button>
+                  </Row>
+                </Card>
+              </Col>{" "}
             </Row>
           </Col>{" "}
           {/* second education */}
         </Col>
         {/* end of educational history */}
+      </Row>
+      <Row
+        className={`${styles.clear}`}
+        style={{
+          backgroundColor: "black",
+          color: "white",
+        }}
+      >
+        <Col xs={4} className="text-center mb-2 mt-2 "></Col>
+        <Col xs={4} className="text-center mb-2 mt-2 ">
+          &copy;{new Date().getFullYear()} Copyright:{" "}
+          <a className={`  ${styles.webLinks}`} href="/">
+            eriseldportfolio.com{" "}
+          </a>
+        </Col>
+        <Col xs={4} className="text-right mb-2 mt-2 pr-5 "></Col>
       </Row>
     </>
   );

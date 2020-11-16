@@ -8,6 +8,9 @@
 .textJustify {
   text-align: justify !important;
 }
+.textJ {
+  text-align: justify !important;
+}
 .educationPhoto {
   width: 100px !important;
   height: 100px !important;
@@ -138,6 +141,56 @@
 }
 
 myButton:hover {
+  border: 2px solid transparent;
+  color: indigo;
+  transform: scale(1.05);
+  will-change: transform;
+}
+.myButton1 {
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+  color: #e8e9eb;
+  font-family: "Source Serif Pro", Georgia, Garamond, serif;
+  font-size: 1.3em;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 7px 1.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+.myButton1::after {
+  color: #3eacff !important;
+  box-shadow: none;
+  background-color: #010e42;
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+.myButton1:focus {
+  box-shadow: none !important;
+  color: #e8e9eb;
+}
+.myButton1:hover::after {
+  transform: translate(0, 0);
+}
+.myButton1:hover {
+  color: #3eacff !important;
+}
+
+myButton1:hover {
   border: 2px solid transparent;
   color: indigo;
   transform: scale(1.05);
