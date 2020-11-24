@@ -93,7 +93,7 @@ export default function Into() {
                 <Image
                   variant="top"
                   className={`${styles.educationPhoto} `}
-                  src="./strive.png"
+                  src="./uamd.png"
                   roundedCircle
                 />{" "}
               </Col>
@@ -101,20 +101,22 @@ export default function Into() {
                 <Card.Title
                   className={`  mb-2  text-left ${styles.mediumTitle} `}
                 >
-                  Full Stack Web Developer
+                  Bachelor of Information Technology
                 </Card.Title>
                 <Card.Text
                   className={`  mb-2 text-left ${styles.mediumSubTitle} `}
                 >
-                  Strive School | Apr 2020 - Oct 2020
+                  Aleksander Moisiu University | Dec 2013 - Dec 2017
                 </Card.Text>
+                <Card.Title
+                  className={`  mb-2 text-left ${styles.mediumSubTitle} `}
+                >
+                  Subjects:
+                </Card.Title>
 
-                <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
-                  Strive School is a YCombinator company on a mission to train
-                  the next generation of software engineers in Europe. During
-                  last 6-months I have build different web-apps using React Js,
-                  MongoDb, Node.js, JavaScript, Bootstrap, TypeScript, Postgree
-                  SQL and Express.js.
+                <Card.Text className={`  mb-2 text-left ${styles.text} `}>
+                  Database, Telecommunication, Computer Architecture, Digital
+                  Systems, Computer Network, Java, Html/Css, C++.
                 </Card.Text>
               </Col>
             </Row>
@@ -153,7 +155,6 @@ export default function Into() {
                 </Card.Text>
               </Col>
             </Row>
-
             <Row className={` ${styles.clear} `}>
               {" "}
               <Col xs={3} md={2}>
@@ -161,7 +162,7 @@ export default function Into() {
                 <Image
                   variant="top"
                   className={`${styles.educationPhoto} `}
-                  src="./uamd.png"
+                  src="./strive.png"
                   roundedCircle
                 />{" "}
               </Col>
@@ -169,22 +170,20 @@ export default function Into() {
                 <Card.Title
                   className={`  mb-2  text-left ${styles.mediumTitle} `}
                 >
-                  Bachelor Information Technology
+                  Full Stack Web Developer
                 </Card.Title>
                 <Card.Text
                   className={`  mb-2 text-left ${styles.mediumSubTitle} `}
                 >
-                  Aleksander Moisiu University | Dec 2013 - Dec 2017
+                  Strive School | Apr 2020 - Oct 2020
                 </Card.Text>
-                <Card.Title
-                  className={`  mb-2 text-left ${styles.mediumSubTitle} `}
-                >
-                  Subjects:
-                </Card.Title>
 
-                <Card.Text className={`  mb-2 text-left ${styles.text} `}>
-                  Database, Telecommunication, Computer Architecture, Digital
-                  Systems, Computer Network, Java, Html/Css, C++.
+                <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
+                  Strive School is a YCombinator company on a mission to train
+                  the next generation of software engineers in Europe. During
+                  last 6-months I have build different web-apps using React Js,
+                  MongoDb, Node.js, JavaScript, Bootstrap, TypeScript, Postgree
+                  SQL and Express.js.
                 </Card.Text>
               </Col>
             </Row>
@@ -205,6 +204,35 @@ export default function Into() {
             </Col>
           </Row>
           <Col sm={12} md={12}>
+            <Row className={` ${styles.clear} `}>
+              {" "}
+              <Col xs={3} md={2}>
+                {" "}
+                <Image
+                  variant="top"
+                  className={`${styles.educationPhoto} `}
+                  src="./maccaferri.png"
+                  roundedCircle
+                />{" "}
+              </Col>
+              <Col xs={9} md={9} className={` mt-2 mb-5 `}>
+                <Card.Title
+                  className={`  mb-2  text-left ${styles.mediumTitle} `}
+                >
+                  Production Manager
+                </Card.Title>
+                <Card.Text
+                  className={`  mb-2 text-left ${styles.mediumSubTitle} `}
+                >
+                  Maccaferri Balkans | Sep 2017 - Jan 2019
+                </Card.Text>
+
+                <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
+                  Supervisor of a team of 5, creating and checking the quality
+                  of gabions and other top products of the company.
+                </Card.Text>
+              </Col>
+            </Row>
             <Row className={` ${styles.clear} `}>
               {" "}
               <Col xs={3} md={2}>
@@ -262,35 +290,6 @@ export default function Into() {
                   Working as a frontend developer, creating mockups and websites
                   for company clients using mostly Html, Css, Javascript and
                   WordPress.
-                </Card.Text>
-              </Col>
-            </Row>
-            <Row className={` ${styles.clear} `}>
-              {" "}
-              <Col xs={3} md={2}>
-                {" "}
-                <Image
-                  variant="top"
-                  className={`${styles.educationPhoto} `}
-                  src="./maccaferri.png"
-                  roundedCircle
-                />{" "}
-              </Col>
-              <Col xs={9} md={9} className={` mt-2 mb-5 `}>
-                <Card.Title
-                  className={`  mb-2  text-left ${styles.mediumTitle} `}
-                >
-                  Production Manager
-                </Card.Title>
-                <Card.Text
-                  className={`  mb-2 text-left ${styles.mediumSubTitle} `}
-                >
-                  Maccaferri Balkans | Sep 2017 - Jan 2019
-                </Card.Text>
-
-                <Card.Text className={`  mb-2 text-left ${styles.text}  `}>
-                  Supervisor of a team of 5, creating and checking the quality
-                  of gabions and other top products of the company.
                 </Card.Text>
               </Col>
             </Row>
